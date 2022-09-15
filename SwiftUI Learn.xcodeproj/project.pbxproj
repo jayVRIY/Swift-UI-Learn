@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694429B828D3438100B11D44 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694429B728D3438100B11D44 /* Styles.swift */; };
+		694429BA28D3570500B11D44 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694429B928D3570500B11D44 /* AccountView.swift */; };
 		6990B43B28D1F3AA0015D060 /* SwiftUI_LearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6990B43A28D1F3AA0015D060 /* SwiftUI_LearnApp.swift */; };
 		6990B43D28D1F3AA0015D060 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6990B43C28D1F3AA0015D060 /* ContentView.swift */; };
 		6990B43F28D1F3AD0015D060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6990B43E28D1F3AD0015D060 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		694429B728D3438100B11D44 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		694429B928D3570500B11D44 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		6990B43728D1F3AA0015D060 /* SwiftUI Learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Learn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6990B43A28D1F3AA0015D060 /* SwiftUI_LearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_LearnApp.swift; sourceTree = "<group>"; };
 		6990B43C28D1F3AA0015D060 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,10 +98,12 @@
 		6990B43928D1F3AA0015D060 /* SwiftUI Learn */ = {
 			isa = PBXGroup;
 			children = (
+				694429B728D3438100B11D44 /* Styles.swift */,
 				6990B43A28D1F3AA0015D060 /* SwiftUI_LearnApp.swift */,
 				6990B43C28D1F3AA0015D060 /* ContentView.swift */,
 				6990B43E28D1F3AD0015D060 /* Assets.xcassets */,
 				6990B44028D1F3AD0015D060 /* Preview Content */,
+				694429B928D3570500B11D44 /* AccountView.swift */,
 			);
 			path = "SwiftUI Learn";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694429BA28D3570500B11D44 /* AccountView.swift in Sources */,
+				694429B828D3438100B11D44 /* Styles.swift in Sources */,
 				6990B43D28D1F3AA0015D060 /* ContentView.swift in Sources */,
 				6990B43B28D1F3AA0015D060 /* SwiftUI_LearnApp.swift in Sources */,
 			);
